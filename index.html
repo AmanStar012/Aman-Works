@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,800;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>The Unexplored India</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">The Unexplored India</h2>
+            <div class="toggle"></div>
+        </header>
+       <video src="./images/pexels-nataliya-vaitkevich-7235863.mp4" loop autoplay muted></video> -->
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Exploring India</h2>
+            <p>After our regular dose of hidden places and their mind-boggling pictures, we are sure no popular or offbeat place is
+            alien to you anymore. But we are not gonna stop flooding and surprising you.
+            
+            To keep you glued and inspired, here’s a list of 10 unexplored places in India. Over-shadowed and overt, there places
+            will leave you stumped with their untouched beauty.</p>
+            <a href="./unexplored places .html">Lets Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/profile.php?id=100011829313089"><img src="./Logos/Facebook_logo_36x36.svg.png" width="40" alt=""></a></li>
+            <li><a href="https://www.instagram.com/amansharma885/"><img src="./Logos/insta-logo.png" width="40" alt=""></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/India"><img src="./Logos/Wikipedia_logo_red.png" width="40" alt=""></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="unexplored places .html">Unexplored Places</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+    })
+</script>
+
+</body>
+</html>
